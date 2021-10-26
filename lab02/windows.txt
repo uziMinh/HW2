@@ -1,0 +1,160 @@
+Wireless setup - Windows (Recommended)
+1.      Gather these settings for your wireless network:
+
+ 
+
+SSID or Network Name
+
+The name of your Wireless Network or Access Point
+
+Network Security Key (Password)
+
+Encryption Key, WEP Key, Passphrase
+
+ 
+
+If you're not sure about any of these settings, we may be able to help you find them. Click here for assistance.
+
+               - Click here for video instructions.
+
+ 
+
+note icon Some access points and routers have both a primary and guest network. Guest networks allow access to the network Internet connection, but restricts direct access to the network. The Brother machine should be setup on the primary network and not the guest network.
+
+ 
+
+2.      Download and run the Software / Document Installer. Click here for instructions. 
+
+ 
+
+3.      Follow the instructions depending if you have a USB cable or not:
+
+ 
+
+If you have a USB cable
+
+If you do not have a USB cable
+
+ 
+
+4.      Enter your Name and Company Name (if applicable).
+
+ 
+
+5.      The needed Software and Manuals will be automatically check marked for install: Printer Driver, P-touch Editor, etc. Printer Driver must be selected to setup the machine wirelessly on the network. Click OK.
+
+ 
+
+6.    If prompted to enter the serial number, type the label machine serial number and click Submit.
+
+ 
+
+7.      If you agree to the terms of the “End-User License Agreement”, click Agree.
+
+ 
+
+8.      The software and manuals will be downloaded and installed.
+
+ 
+
+9.     Click Finish when complete.
+
+ 
+
+10.    Click Next on the Welcome screen.
+
+ 
+
+11.   Choose Wireless Network Connection and click Next.
+
+ 
+
+12.   Choose Brother Peer-to-Peer Network Printer and click Next.
+
+ 
+
+13.   Choose Change the Firewall port settings to enable network connection and continue with the installation. (Recommended) and click Next.
+
+ 
+
+note icon If you are using a firewall other than the Windows Firewall or the Windows Firewall is turned off, then click OK when you receive the firewall warning screen.
+
+ 
+
+14.   Follow the instructions depending if you have a USB cable or not:
+
+ 
+
+If you have a USB cable
+
+If you do not have a USB cable
+
+ 
+
+15.   When prompted, disconnect the USB cable from your computer and your machine. The wireless setup is now complete.
+
+ 
+
+16.   Click Next to continue the installation and install the printer driver.
+
+ 
+
+17.   Choose your label machine from the list, and then click Next.
+
+ 
+
+select label printer
+
+ 
+
+note icon If you don't see your machine in the list, make sure that your machine is powered on, the computer is connected to the same network as your Brother machine, and then click Refresh.
+
+If the machine is still not listed, you will need to cycle the power to the router for about 15 seconds to reestablish communication. Once the router restarts, wait about a minute and then click Refresh.
+
+ 
+
+18.   Click Finish.
+
+ 
+
+19.   Depending on the software you selected to install, you may be prompted to click Next to install the software you selected. Follow the installation prompts.
+
+ 
+
+20.   Click OK to display the online registration page or click Cancel to continue without displaying the page.
+
+ 
+
+21.   Click Finish.
+
+ 
+
+note icon If the wireless setup fails, we recommend trying the alternate wireless setup method using the Printer Setting Tool. Click here for instructions.
+
+ 
+
+22.   If you installed using a USB cable, a second copy of the printer driver was installed when the USB cable was connected. It is recommended to delete it:
+
+ 
+
+a.      Open the Printers folder. Click here for instructions. 
+
+ 
+
+b.      Right-click on Brother QL-8xxxx (Copy 1) and select Printer Properties or Properties (for Windows Vista).
+
+ 
+
+c.      Click Print Test Page.
+
+ 
+
+d.      A Test Page will not print, but the red Status LED should flash to indicate there is communication. Press the Power button once to clear the flashing LED. Click Close.
+
+ 
+
+e.      Right-click on the other driver named Brother QL-810W and select Remove Device or Delete (depends on your operating system).
+
+ 
+
+f.       Select Yes to delete the extra copy of the driver.

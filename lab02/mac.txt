@@ -1,0 +1,205 @@
+Wireless setup - Macintosh
+1.      Gather these settings for your wireless network:
+
+ 
+
+SSID or Network Name
+
+The name of your Wireless Network or Access Point
+
+Network Security Key (Password)
+
+Encryption Key, WEP Key, Passphrase
+
+If you're not sure about any of these settings, we may be able to help you find them. Click here for assistance. 
+
+               - Click here for video instructions.
+
+note icon Some access points and routers have both a primary and guest network. Guest networks allow access to the network Internet connection, but restricts direct access to the network. The Brother machine should be setup on the primary network and not the guest network.
+
+
+2.      Download the Full Driver & Software Package, which can be downloaded from https://support.brother.com. Click here for instructions. 
+
+ 
+
+3.      Double-click Start Here OSX.
+
+ 
+
+4.      If you receive a security warning about opening the application, click Open.
+
+ 
+
+note icon You may receive a message stating that the driver package cannot be opened because it is from an unidentified developer. If this happens, you can still open the driver package by completing the following steps:
+
+ 
+
+a.      Hold down the Control key and click the installer package file.
+
+b.      Choose Open.
+
+c.      Choose Open again. The installation will begin.
+
+ 
+
+5.      Choose Wireless Network Connection and then click Next.
+
+ 
+
+6.      Follow the instructions depending if you have a USB cable or not:
+
+ 
+
+If you have a USB cable
+
+a.      Choose Yes, I have a USB cable to use for installation and then click Next.
+
+ 
+
+b.      On the Important Notice window, confirm your SSID and Network Key, place a check next to Checked and confirmed and then click Next.
+
+ 
+
+important notice
+
+ 
+
+c.   When prompted, temporarily connect the USB cable (not included) directly to your computer and your Brother machine. Make sure your Brother machine is powered on.
+
+
+Note This step may take a few minutes for the USB driver to be installed.
+
+If the installation freezes at this point, verify that the USB cable is securely connected to your Brother machine and computer. You may also try restarting your computer and your Brother machine. For model PTP950NW: make sure the cable is not in your Brother machine's ethernet port.
+
+ 
+
+d.      The list of available wireless networks is displayed, choose your network name and then click Next.
+
+ 
+
+available wireless networks
+
+ 
+
+note icon If the list is blank, check that the router is turned on, broadcasting the network name, and that it's within range for wireless communication. You may need to cycle the power to the router for about 15 seconds to reestablish communication and then click Refresh.
+
+ 
+
+e.       Enter the Network Key and then click Next.
+
+ 
+
+f.      On the Wireless Network Settings Confirmation screen, click Next. The settings will be sent to the machine. Go to step 7.
+
+ 
+
+note icon For Advanced Users: If you want to manually enter the IP address settings on your machine, click Change IP Address and enter the necessary IP address settings for your network.
+
+If the connection failed then cycle the power on the router for about 15 seconds and then retry the wireless setup again. If this configuration consistently fails, we recommend that you manually configure the wireless settings on your machine.
+
+If you do not have a USB cable
+
+a.      Choose No, I do not have a USB cable and then click Next.
+
+ 
+
+b.      Hold down the WPS button on the label machine. The Wi-Fi LED will flash.
+
+ 
+
+c.      Set your access point to Automatic Wireless (one-push) mode and click Next. Refer to the instructions that came with your access point. If you are unable to set the access point to this mode, we recommend wireless setup using a USB cable temporarily. Follow these instructions again from step 6 using a USB cable.
+
+ 
+
+d.      Once the wireless settings are configured the Wi-Fi LED will remain lit.
+
+ 
+
+-        If the Wi-Fi LED is lit, place a check next to Checked and confirmed and then click Next. Go to step 9.
+
+ 
+
+-        If the Wi-Fi LED continues to flash, the wireless settings cannot be configured. We recommend wireless setup using a USB cable temporarily. Follow these instructions again from step 6 using a USB cable.
+
+ 
+
+7.     When prompted, disconnect the USB cable from your computer and your machine. The wireless setup is now complete.
+
+ 
+
+8.     Click Next to continue the installation and install the printer driver.
+
+ 
+
+9.     Choose your label machine from the list, and then click Next.
+
+ 
+
+Wireless Wizard
+
+ 
+
+note icon If you don't see your machine in the list, make sure that your machine is powered on, the computer is connected to the same network as your Brother machine, and then click the gear icon and Refresh.
+
+If the machine is still not listed, you will need to cycle the power to the router for about 15 seconds to reestablish communication. Once the router restarts, wait about a minute and then click the gear icon and Refresh.
+
+ 
+
+10.   Click Continue on the welcome window.
+
+ 
+
+11.   After reading and accepting the License Agreement, click Continue if you agree to the terms.
+
+ 
+
+12.   Click Agree to accept the License Agreement.
+
+ 
+
+13.   Click Install to continue with the installation.
+
+  
+
+14.  If prompted to enter your password, enter your Macintosh password and click Install Software.
+
+ 
+
+note icon If you do not know your system password, please contact Apple or your network administrator for assistance.
+
+    
+
+15.  If you receive a security warning about opening the application, click Open.
+
+ 
+
+16. Click Add Printer.
+
+ 
+
+17.  Choose your machine from the list and then click Add.
+
+
+Note Be sure that the CUPS driver has been selected for the "Use" dropdown so that you have full printing functionality.
+
+ 
+
+Add CUPS
+
+ 
+
+19.  Click Next back on the Add Printer screen.
+
+ 
+
+20.  When the Brother support screen appears, you may choose any of the available optional installations. Once complete, click Next.
+
+ 
+
+21.  Once the driver installation is finished, click Close.
+
+ 
+
+22. Once the installation is finished, click Close.
+
+ 
