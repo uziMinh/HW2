@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        h1{
+            color: green;
+            text-shadow: 1px 1px 1px #000000;
+        }
+        form{
+            display: table;
+            border-style: solid;
+            border-radius: 3em;
+            border-spacing: 40px;
+        }
+        input[type=text]{
+            width: 100%;
+            padding:12px 20px;
+            margin:8px 0;
+            box-sizing: border-box;
+            display: table-cell;
+        }
+        input[type=number]{
+            width: 100%;
+            padding:12px 20px;
+            margin:8px 0;
+            box-sizing: border-box;
+        }
+        input[type=email]{
+            width: 100%;
+            padding:12px 20px;
+            margin:8px 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="sweetalert.css">
+</head>
+<body bgcolor="#FFFFCC">
+    <h1>Enters details of your account</h1>
+    <hr>
+    <form action="results.html" method="GET" onsubmit="return validate">
+
+        <div>
+            <label for="name">First Name</label>
+            <input type="text" name="name" id="firstname" placeholder="Aptech" required>
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="name" id="lastname" placeholder="FPT" required>
+        <div>
+        <br>
+            <label for="Email">Email</label>
+            <input type="email" name="email" id="email" placeholder="example123@gmail.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="age" name="age" id="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="18 to 30" min="18" max="30"><br>
+        </div>
+        <br>
+        <div>
+            <label>Are you Employed ?</label>
+        <div>
+            <label for="yes">Yes</label>
+            <input type="radio" name="Are you Employed?" id="yes" value="yes"><br>
+        </div>
+            <div>
+                <label for="no">No</label>
+                <input type="radio" name="Are you Employed?" id="no" value="no"><br>
+            </div>
+        </div>
+</div>
+        <hr>
+        <button type="submit" id="ok";>OK</button>
+        <button type="reset" id="cancel">Cancel</button>
+</form>
+
+</body>
+</html>
