@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Aplayer CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
+
+    <title>Online Music Website</title>
+    <style>
+        body{
+            background-color: #f7f7f7;
+            font-family: Open sans;
+        }
+        img {
+            width: 100%;
+            min-height: 250px;
+        }
+        .main{
+            padding: 40px 0px;
+        }
+        col-md-3{
+            margin-bottom: 40px;
+        }
+        .album-poster{
+            position: relative;
+            display: block;
+            border-radius: 7px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px #3d2173a1;
+            transition: all ease 0.4s;
+        }
+        .album-poster:hover{
+            box-shadow: none;
+            transform: scale(0.98) translateY(5px);
+        }
+        h3{
+            font-size: 34px;
+            margin-bottom: 34px;
+            border-bottom: 3px solid #e6e6e6;
+            padding-bottom: 15px;
+            color: white;
+            text-shadow: 2px 2px rgb(43, 255, 0);
+        }
+        p{
+            font-size: 15px;
+            text-shadow: 2px 2px #fbff00;
+        }
+        h4{
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 15px;
+            font-weight: 700;
+            text-shadow: 2px 2px #fbff00;
+        }
+        #aplayer{
+            position: fixed;
+            bottom: -100px;
+            left: 0;
+            margin: 0;
+            box-shadow: 0 -2px 2px #dadada;
+            background-color: #fff;
+            transition: all ease 0.5s;
+        }
+        #aplayer.showPlayer{
+            bottom: 0;
+        }
+        .showcase video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 1;
+        }
+    </style>
+  </head>
+  <body>
+      
+    <div class="showcase">
+        <video src="shooting-star.mp4" muted loop autoplay></video>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>New Releases</h3>
+                </div>
+                <div class="col-md-3">
+                    <a href="javascript:void();" class="album-poster" data-switch="0">
+                        <img src="stay.jpg" alt="">
+                        </a>
+                        <h4>STAY KID LAROI FT JUSTIN BIEBER</h4>
+                        <p>2021</p>
+                </div>
+                <div class="col-md-3">
+                    <a href="javascript:void();" class="album-poster" data-switch="1">
+                        <img src="dystopia.jpg" alt="">
+                    </a>
+                        <h4>MAFIA - TRAVIS SCOTT</h4>
+                        <p>2021</p>
+                </div>
+                <div class="col-md-3">
+                    <a href="javascript:void();" class="album-poster" data-switch="2">
+                        <img src="iwonder.jpg" alt="">
+                    </a>
+                        <h4>I Wonder - Kanye West</h4>
+                        <p>2021</p>
+                </div>
+                <div class="col-md-3">
+                    <a href="javascript:void();" class="album-poster" data-switch="3">
+                        <img src="yeudungsodau.jpg" alt="">
+                    </a>
+                        <h4>YEU DUNG SO DAU</h4>
+                        <p>2021</p>
+                </div>
+                <div class="col-md-3">
+                    <a href="javascript:void();" class="album-poster" data-switch="4">
+                        <img src="keshi.jpg" alt="">
+                    </a>
+                        <h4>BESIDE YOU - KESHI</h4>
+                        <p>2021</p>
+            </div>
+            <div class="col-md-3">
+                <a href="javascript:void();" class="album-poster" data-switch="5">
+                    <img src="centralcee.jpg" alt="">
+                </a>
+                    <h4>OBSESSED WITH YOU</h4>
+                    <p>2021</p>
+        </div>
+        <div class="col-md-3">
+            <a href="javascript:void();" class="album-poster" data-switch="6">
+                <img src="bunny.jpg" alt="">
+            </a>
+                <h4>PRADA - LEFT HAND</h4>
+                <p>2021</p>
+    </div>
+    <div class="col-md-3">
+        <a href="javascript:void();" class="album-poster" data-switch="7">
+            <img src="010.jpg" alt="">
+        </a>
+            <h4>LOOP</h4>
+            <p>2021</p>
+</div>
+    </div>
+
+    <div id="aplayer">
+
+    </div>
+
+    <!-- Jquery Link-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+
+    <!-- Bootstrap Link-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.js"></script>
+
+    <!-- Aplayer Link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+
+    <script>
+
+        $(".album-poster").on('click', function(e){
+            var dataSwitchId = $(this).attr('data-switch');
+            console.log(dataSwitchId);
+            ap.list.switch(dataSwitchId);
+
+            ap.play();
+            $("#aplayer").addClass('showPlayer');
+        });
+
+
+         const ap = new APlayer({
+             container: document.getElementById('aplayer'),
+             listFolded: true, 
+             audio: [
+            {
+                 name: 'Stay',
+                 artist: 'Kid Laroi ft. Justin Bieber',
+                 url: 'stay.mp3',
+                 cover: "stay.jpg"
+            },
+            {
+                 name: 'Mafia',
+                 artist: 'Travis Scott',
+                 url: 'mafia.mp3',
+                 cover: "dystopia.jpg"
+            },
+            {
+                 name: 'I Wonder',
+                 artist: 'Kanye West',
+                 url: 'iwonder.mp3',
+                 cover: "iwonder.jpg"
+            },
+            {
+                 name: 'Yeu Dung So Dau',
+                 artist: 'Ngo Lan Huong (Frexs Remix)',
+                 url: 'yeudungsodau.mp3',
+                 cover: "yeudungsodau.jpg"
+            },
+            {
+                 name: 'Beside You',
+                 artist: 'Keshi',
+                 url: 'besideyou.mp3',
+                 cover: "keshi.jpg"
+            },
+            {
+                 name: 'Obsessed With You',
+                 artist: 'Central Cee',
+                 url: 'obsessedwithyou.mp3',
+                 cover: "centralcee.jpg"
+            },
+            {
+                 name: 'Prada',
+                 artist: 'Left Hand',
+                 url: 'prada.mp3',
+                 cover: "bunny.jpg"
+            },
+            {
+                 name: 'Loop',
+                 artist: 'Coldzy ft. TO$KA, Left Hand',
+                 url: 'loop.mp3',
+                 cover: "bunny.jpg"
+            },
+            ]
+         })
+    </script>
+
+  </body>
+</html>
