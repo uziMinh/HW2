@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopee</title>
+
+    <style>
+        label {
+            width: 100px;
+            display: inline-block;
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Online Shopee</h1>
+    <div class="link">
+        <a href="">Home</a>
+        <a href="">Products</a>
+        <a href="">Shops</a>
+        <a href="">Register</a>
+        <a href="">Sign In</a>
+    </div>
+    <h2>Member Information</h2>
+    <div class="form_memberinfo">
+        <form action="signup">
+            <div class="form-group">
+            <label for="name" id="fullname">Full Name</label>
+            <input type="text" value="Minh"><br>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="gender_m">Male
+                <input type="radio" name="gender" id="gender_f">Female
+            </div>
+            <div class="form-group">
+                <label for="hobbies">Hobbies</label>
+                <input type="checkbox" name="hobbies" id="shopping">Shopping
+                <input type="checkbox" name="hobbies" id="eatingout">Eating out
+                <input type="checkbox" name="hobbies" id="sporting">Sporting
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob"><br>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" value="Huynh Tan Phat">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" value="minh@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="phone" name="phone" id="phone" pattern="" value="0123456">
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <select name="city" id="city">
+                <option value="hanoi">Hanoi</option>
+                <option value="saigon">Saigon</option>
+                <option value="hue">Hue</option>
+                <option value="danang">Da Nang</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" cols="2" rows="1" value="abc"></textarea>
+            </div>
+
+            <div class="button">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
